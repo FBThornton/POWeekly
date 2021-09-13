@@ -19,7 +19,7 @@ public class Conversion {
 	}
 	
 	public long octalConvert(long decNum) {
-		
+		return Long.parseLong(Long.toOctalString(decNum));
 	}
 	
 }
